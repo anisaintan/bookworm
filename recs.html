@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>bookworm.id</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 70px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+  #more {display: none;}
+  
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BOOKWORM.ID</h1>
+  <p><font size="5">Tempat kumpulnya <b>kutu buku</b> Indonesia</font></p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="booktalk.html">Booktalks</a>
+  <a href="recs.html" class="active">Recommendations</a>
+  <a href="join me.html">Give Your Stars</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="https://www.instagram.com/bookstagramindonesia/" class="right">Notice Me!</a>
+</div>
+
+  <div class="main">
+    
+	<center><h1> FANTASY BOOKS RECOMMENDATIONS!</h1></center>
+    <p>If there’s a title you think absolutely belongs on a list of top fantasy books, feel free to mention it in the comments. Or, remembering that I limited this list to only one book per author and only one book per series, if you think another selection from that author or series is a better choice, let us know!</p>
+	<br></br>
+	
+    <h3><center>1. Harry Potter by JK. Rowling<br>(Average Rating : 4,47 stars)</br></h3></center>
+	<center><img src="img/harpot.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone">here</a> to read the description</font></center>
+	<br></br>
+	<hr width="60%" color="green" align="center"></hr>
+	
+	<h3><center>2. The Maze Runner by James Dashner <br>(Average Rating : 4,02 stars)</br> </h3></center>
+	<center><img src="img/maze.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/6186357-the-maze-runner">here</a>
+	to read the description</font></center>
+	<br></br><hr width="60%" color="green" align="center"></hr>
+	
+	<h3><center>3. The Lightning Thief by Rick Riordan<br>(Average Rating : 4,25 stars)</br></h3></center>
+	<center><img src="img/pjo.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/28187.The_Lightning_Thief">here</a> to read the description</font></center>
+	<br></br>
+	<hr width="60%" color="green" align="center"></hr>
+	
+	<h3><center>4. The Hunger Games by Suzannee Collins<br>(Average Rating : 4,33 stars)</br></h3></center>
+	<center><img src="img/hungergame.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/2767052-the-hunger-games">here</a> to read the description</font></center>
+	<br></br>
+	<hr width="60%" color="green" align="center"></hr>
+	
+	<h3><center>5. City Of Bones by Cassandra Clare<br>(Average Rating : 4,10 stars)</br></h3></center>
+	<center><img src="img/tmo.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/256683.City_of_Bones">here</a> to read the description</font></center>
+	<br></br>
+	<hr width="60%" color="green" align="center"></hr>
+	
+	<h3><center>6. Divergent by Veronica Roth<br>(Average Rating : 4,20 stars)</br></h3></center>
+	<center><img src="img/divergent.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/13335037-divergent">here</a> to read the description</font></center>
+	<br></br>
+	<hr width="60%" color="green" align="center"></hr>
+	
+	<h3><center>7. The Screaming Staircase by Jonathean Straud<br>(Average Rating : 4,21 stars)</br></h3></center>
+	<center><img src="img/lockwood.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/13555073-the-screaming-staircase?ac=1&from_search=true&qid=WHqfNf5ZSL&rank=3">here</a> to read the description</font></center>
+	<br></br>
+	<hr width="60%" color="green" align="center"></hr>	
+	
+	<h3><center>8. The 5th Wave by Rick Yacvey<br>(Average Rating : 4,06 stars)</br> </h3></center>
+	<center><img src="img/wave.jpg"></img></center>
+	<center><font size="4">click <a href="https://www.goodreads.com/book/show/16101128-the-5th-wave">here</a> to read the description</font></center>
+	<br></br>
+	<hr color="green"></hr>
+
+<div class="row">
+<div class="side">
+<div id="comments" class="comments-area">
+<div id="respond" class="comment-respond">
+<h2 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/about-me#respond" style="display:none;">Cancel reply</a></small></h2><form action="https://katiesbookblog.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1970' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="10f207ff13" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="22"/></p></form>	</div><!-- #respond -->
+</div>	
+</div>
+</div>
+
+<div class="footer">
+     <font size="4"> Notice me! </font><br></br>
+<div class="col-4 text-right">
+    <a href="">
+         <img src="img/fb.png">
+    </a>
+    <a href="">
+         <img src="img/twitter.png">
+     </a>
+     <a href="">
+		<img src="img/ig.png">
+     </a>
+					<br>
+					<br>
+ </div>
+</div>
+  <h4>Copyright &copy bookworm.id</h4>
+</div>
+
+</body>
+</html>
